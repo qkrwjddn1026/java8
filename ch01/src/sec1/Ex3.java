@@ -1,11 +1,14 @@
 package sec1;
 //저장 클래스
 public class Ex3 {
+	//맴버 필드
 	private String name;  //학생명
 	final static double PT = 3.14; //상수
 	private int kor;     //국어점수
 	private int eng;     //영어점수
 	private int mat;	 //수학점수
+	
+	//맴버 매서드= 해당 클래스의 기능 (처리하고자하는 일)을 나타냄
 	public String getName() {
 		return name;
 	}
