@@ -1,0 +1,13 @@
+package sec1;
+
+public class Oper2 {
+
+	public static void main(String[] args) {
+		int a=10, b= 20;
+		System.out.println("a+b="+(a+b));	//´õÇÏ±â
+		System.out.println("a-b="+(a-b));	//»©±â
+		System.out.println("b*a="+(b*a));	//°öÇÏ±â
+		System.out.println("b/a="+(b/a));
+	}
+
+}

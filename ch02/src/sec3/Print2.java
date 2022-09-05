@@ -10,6 +10,15 @@ public class Print2 {
 		System.out.printf("%n10진수 %d는 16진수로 %x 임", a, a);
 		
 				//%d : 정수 , %f : 실수 , %s:문자열  ,%b :2진수  ,%o : 8진수 , %x : 16진수
+		
+		byte byteValue = 10;
+		float floatValue = 2.5F;
+		double doubleValue = 2.5;
+		
+		byte result = byteValue + byteValue;
+	    int result = 5 + byteValue; 			
+	    float result = 5 + floatValue;			
+	    double result = 5 + doubleValue;	
 				
 
 	}
