@@ -1,0 +1,17 @@
+package sec2;
+
+import java.util.Scanner;
+
+public class Condition1 {
+	public static void main(String[] args) {
+		System.out.println("점수 입력 : ");
+		Scanner sc = new Scanner(System.in); //키보드에서 입력 받을때  ctrl+shift+o
+		int num = sc.nextInt(); // 정수
+		if(num>=80) {
+			System.out.println("합격");
+		}else{
+			System.out.println("불합격");
+		}
+		sc.close();						//콘솔 결과창에 마우스 클릭 후 점수 입력(Scanner) -> 합격or불합격 출력 
+	}
+}
