@@ -1,0 +1,13 @@
+package sec1;
+
+public class MemberEx {
+
+	public static void main(String[] args) {
+		Member mem1 = new Member(); //mem1을 새로 만듬
+		mem1.setId("kkt");
+
+		System.out.println("id : "mem1.getId());
+
+	}
+
+}
