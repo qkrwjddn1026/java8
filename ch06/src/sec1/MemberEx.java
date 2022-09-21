@@ -18,7 +18,7 @@ public class MemberEx {
 		Member mem4 = new Member("ppp","1111","박정우","abab");
 		System.out.println("이름은 : " + mem4.getName());
 		
-		MemberContoller mc = new MemberContoller();
+		MemberController mc = new MemberController();
 		mc.join("kkt", "1004", "김기태");
 		mc.info();
 		mc.login("kkt", "1004");

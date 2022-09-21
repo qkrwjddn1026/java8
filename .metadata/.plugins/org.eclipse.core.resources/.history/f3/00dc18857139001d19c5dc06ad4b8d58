@@ -1,0 +1,62 @@
+package sec2;
+
+public class Account {
+
+	String number;
+	String holder;
+	int balance ;
+	int money;
+	
+	
+	
+	public Account(){}
+	public Account(String number, String holder, int balance, int money){
+		this.number=number; this.holder=holder;
+		this.balance=balance; this.money=money;
+	}
+	
+	public String getNumber() {
+		return number;
+	}
+	public void setNumber(String number) {
+		this.number = number;
+	}
+	public String getHolder() {
+		return holder;
+	}
+	public void setHolder(String holder) {
+		this.holder = holder;
+	}
+	public int getBalance() {
+		return balance;
+	}
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+	public int getMoney() {
+		return money;
+	}
+	public void setMoney(int money) {
+		this.money = money;
+	}
+	public int runDeposit(){
+		 int runDeposit = balance + money;
+	  
+	  return runDeposit;
+	}
+	public int runWithraw(){
+		int runWithraw = balance - money;
+		if(this.money>=0){
+			runWithraw = balance - money;}
+			return runWithraw;
+		
+	}
+	public int runBalance(){
+		System.out.println( this.balance);
+		return balance;
+	}
+	public void printAccount(){
+		System.out.println( this.number + this.holder +this.balance);
+	}
+}
+
