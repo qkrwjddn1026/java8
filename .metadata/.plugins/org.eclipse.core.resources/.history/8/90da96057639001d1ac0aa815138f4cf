@@ -1,0 +1,18 @@
+package sec2;
+
+public class ProductEx {
+
+	public static void main(String[] args) {
+		Product pd = new Product();
+		pd.setPid("a01");
+		pd.setPname("냉장고");
+		pd.setAmount(3);
+		pd.setPrice(80000);
+		pd.setImg("icetank01.jpg");
+		pd.printImg();
+		
+		
+
+	}
+
+}
