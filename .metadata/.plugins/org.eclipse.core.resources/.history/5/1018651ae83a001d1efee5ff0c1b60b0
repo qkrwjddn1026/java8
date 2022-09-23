@@ -1,0 +1,8 @@
+package sec3;
+
+public class FinalClassEX1 {
+	public static void main(String[] args) {
+		FinalClass1.PI
+	}
+
+}
